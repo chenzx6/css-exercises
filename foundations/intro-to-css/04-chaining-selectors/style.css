@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+
+.avatar.proportioned{
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted{
+    width:200px;
+    height: 400px;
+}
+
+/* chaining and descendant combinators is different! */
+/* chaining:  One element has both classes*/
+/* descendant combinators: two classes can belong to different elements */
+
+/* .subsection.preview	One element has both classes
+.subsection .preview	An element with preview is inside an element with subsection
+div.header	A div with the header class
+div .header	An element with header inside a div
+.parent .child	An element with child inside an element with parent
+.parent, .child	Selects elements matching either selector */
